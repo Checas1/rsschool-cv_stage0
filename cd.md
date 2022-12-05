@@ -34,14 +34,17 @@ alert(result);
 
 ## Edication 
 
-**University:** Kharkov National University of Radio Electronics, Software Engineering 
-**Courses:** The Rolling Scopes School, UKRAINIAN IT_SCHOOL.
+* **University:** Kharkov National University of Radio Electronics, Software Engineering 
+
+* **Courses:** The Rolling Scopes School, UKRAINIAN IT_SCHOOL.
 
 ## Language
 
-**English** - B1(process...)
-**Ukraininan** - Native
-**Russian** - Native
+* **English** - B1(process...)
+
+* **Ukraininan** - Native
+
+* **Russian** - Native
 
 
 
