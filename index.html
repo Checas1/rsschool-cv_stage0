@@ -1,1 +1,183 @@
-<!-- html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/img/chevron-down.svg" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <title>CV</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav" id="nav">
+        <ul class="nav_list">
+          <li class="nav_item">
+            <a href="#about" class="nav_link">About Me</a>
+          </li>
+          <li class="nav_item">
+            <a href="#contacts" class="nav_link">Contacts</a>
+          </li>
+          <li class="nav_item">
+            <a href="#scills" class="nav_link">Skills</a>
+          </li>
+          <li class="nav_item">
+            <a href="#code" class="nav_link">Code</a>
+          </li>
+          <li class="nav_item">
+            <a href="#education" class="nav_link">Education</a>
+          </li>
+          <li class="nav_item">
+            <a href="#projects" class="nav_link">Projects</a>
+          </li>
+        </ul>
+        <button class="nav_button" id="nav_button">
+          <img id="nav_button-img" src="./img/nav.svg" alt="" />
+        </button>
+      </nav>
+      <div class="header__item">
+        <img src="./img/avatar.jpg" alt="Avatar" class="img_header" />
+        <h1 class="header__title">Denys Umanskyi</h1>
+        <p class="header__text">JUNIOR FRONT-END DEVELOPER</p>
+        <div class="header__arrow">
+          <a href="#info">
+            <img src="./img/chevron-down.svg" alt="arrow_down" class="arrow" />
+          </a>
+        </div>
+      </div>
+      <div class="btn-up btn"></div>
+    </header>
+    <main>
+      <section class="info" id="info">
+        <div class="container">
+          <div class="info_wrapper">
+            <div class="about_me" id="about">
+              <h2 class="about_linehide" id="about_linehide">ABOUT ME</h2>
+              <p class="about_text">
+                I am constantly developing in the study of technology, quickly
+                oriented in new information and easily adapt to new changes. I
+                am able to solve conflicts, find some compromises and get out of
+                difficult situations. I work well in a team. I am ready to take
+                up new projects and see things through to the end. <br />I know
+                the basics of HTML, CSS, JavaScript, Figma, Git. I work well in
+                a team. <br />
+                My immediate goal is to take the first steps towards learning
+                and working in the field of FRONT-END development.
+              </p>
+            </div>
+            <div class="contacts" id="contacts">
+              <h2 class="contacts_headline">CONTACTS</h2>
+              <ul class="contacts_ul">
+                <a href="https://github.com/Checas1" class="contact_link"
+                  ><li class="contact first">Git Hub</li></a
+                >
+                <a href="https://telegram.im/@checas1" class="contact_link"
+                  ><li class="contact second">Telegram</li></a
+                >
+                <a
+                  href="https://www.instagram.com/checas606/"
+                  class="contact_link"
+                  ><li class="contact third">Instagram</li></a
+                >
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="code_skills">
+        <div class="container">
+          <div class="code_skills-wrapper">
+            <div class="scills" id="scills">
+              <h2 class="skills_headline" >SKILLS</h2>
+              <ul class="skills_ul">
+                <li class="skill">HTML, CSS</li>
+
+                <li class="skill">JavaScript</li>
+                <li class="skill">Figma</li>
+                <li class="skill">Git ,GitHub</li>
+                <li class="skill">VS Code</li>
+              </ul>
+            </div>
+            <div class="code" id="code">
+              <h2 class="code_headline">CODE</h2>
+              <pre class="code_tex">
+var bag = {
+  [ "thing" + 0 ]: "👜",
+  thing1: function () { return '🌹' },
+  thing2 () { return "🌸" },
+  [ "thing" + 3 ] () { return "🍄" },
+}
+console.log ( bag.thing0 )
+console.log ( bag.thing1 () )
+console.log ( bag.thing2 () )
+console.log ( bag.thing3 () )
+              </pre>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="education" id="education" >
+        <div class="container">
+          <div class="education_wrapper">
+            <div class="univercity">
+              <h2 class="unversity_headline">UNIVERSITY</h2>
+              <p class="university_text">Kharkov National University of Radio Electronics</p>
+              <h2 class="courses_headline">COURSES</h2>
+              <p class="courses_text">The Rolling Scopes School Stage 0</p>
+            </div>
+            <img src="./img/education.png" alt="" class="education_img">
+            <div class="languages">
+              <h2 class="languages_headline">LANGUAGES</h2>
+              <p class="language_text">English -  A2 ( B1 learning...)</з>
+              <p class="language_text">Russian - Native</p>
+              <p class="language_text">Ukrainian - Native</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="partfolio" id="projects">
+        <div class="container">
+          <h2 class="partfolio__title">Projects</h2>
+          <div class="partfolio__cards">
+            <div class="partfolio__item">
+              <a href="https://Checas1.github.io/car_repair/" class="item-link">
+                <img src="./img/car_repair.jpg" alt="car_repair" class="partfolio__item-img" />
+                <h2 class="partfolio__item-title">Cars Repair</h2>
+                <p class="partfolio__item-text">
+                  Adeptive lending.
+                </p>
+              </a>
+            </div>
+            <div class="partfolio__item">
+              <a href="https://checas1.github.io/kalvain_kramer/" class="item-link">
+                <img
+                  src="./img/kelvin.jpg"
+                  alt="kelvin"
+                  class="partfolio__item-img"
+                />
+                <h2 class="partfolio__item-title">Kelvin Kramer</h2>
+                <p class="partfolio__item-text">
+                  Adeptive lending.
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer_wrapper">
+          <a href="https://github.com/Checas1" class="git_link"><img src="./img/github.svg" alt="git_hub" class="git_link-img"></a>
+          <div class="data">© 2022 Denys Umanskyi</div>
+          <a href="https://rs.school/index.html" class="link_rs-school"><img src="./img/rs.svg" alt="rs-school" class="link_rs-img"></a>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./libs/jquery/jquery-3.6.1.min.js"></script>
+    <script src="./libs/vide/jquery.vide.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
