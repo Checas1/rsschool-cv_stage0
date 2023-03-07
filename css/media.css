@@ -1,0 +1,214 @@
+@media(max-width: 1260px){
+  .btn-up{
+      bottom: 40px;
+      right: 10px;
+    }
+  }
+
+@media(max-width: 1200px){
+
+  .nav_list{  
+    display: none;
+  }
+
+  .nav_button{
+    display: block;
+  }
+
+  .nav_item:hover{
+    transform: none;
+  }
+
+  .nav.open .nav_list{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #fff;
+
+    z-index: 1;
+    padding: 26px 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+    font-size: 34px;
+    font-weight: 600;
+  }
+
+  .nav_link{
+    color: #000;
+    color:#606060;
+
+  }
+  
+  .nav_link.active{
+    color: #000;
+  }
+
+  .nav_button{
+    margin: 50px 50px 0 0 ;
+    z-index: 2;
+  }
+}
+
+@media(max-width: 1140px) {
+
+  .info_wrapper{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about_me{
+    margin-bottom: 50px;
+  }
+
+  .code_skills-wrapper{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .scills{
+    margin-left: 0;
+    margin-bottom: 50px;
+  }
+
+  .education_wrapper{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .education_img{
+    margin: 50px 0 50px 40px;
+  }
+
+  .univercity{
+    width: 300px;
+  }
+  .partfolio__item{
+    width: 50%;
+  }
+  
+}
+
+@media(max-width: 930px) {
+  .footer_wrapper {
+    flex-direction: column;
+  }
+
+  .data{
+    margin: 50px 0;
+  }
+  .header__title{
+    font-size: 40px;
+  }
+  .partfolio__cards{
+    margin: 0 10px 0 15px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .partfolio__item:first-child{
+    margin: 25px;
+  }
+  .partfolio__item{
+    margin: 25px;
+    width: 100%;
+  }
+
+  .partfolio__item-img{
+    height: auto;
+  }
+
+}
+
+@media(max-width: 780px) {
+
+  .partfolio__title{
+    font-size: 30px;
+  }
+  .partfolio__item-title{
+    font-size: 18px;
+  }
+
+  .header__title{
+    font-size: 35px;
+  }
+  .education_img{
+    width: 350px;
+  }
+  .code{
+    width: 380px;
+  }
+
+  .code_tex{
+    font-size: 15px;
+  }
+}
+
+@media(max-width: 490px) {
+  
+  .partfolio__title{
+    font-size: 30px;
+  }
+
+  .partfolio__item-title{
+    font-size: 15px;
+  }
+
+  .partfolio__item-text{
+    font-size: 13px;
+  }
+
+  .forest__title{
+    font-size: 18px;
+    margin-left: 15px;
+  }
+
+  .forest__button{
+    font-size: 13px;
+    padding: 8px 15px;
+  }
+
+  .footer__button{
+    font-size: 13px;
+    padding: 8px 15px;
+  }
+
+  .header__text{
+    font-size: 14px;
+  }
+  .code{
+    width: 340px;
+  }
+
+  .code_tex{
+    font-size: 13px;
+  }
+
+  .education_img{
+    width: 300px;
+    margin-left: 20px;
+  }
+}
+
+
+@media(max-width: 350px) {
+
+  .header__title{
+    font-size: 20px;
+  }
+
+  .header__text{
+    font-size: 12px;
+  }
+
+  .item__title{
+    font-size: 16px;
+  }
+
+  .item__text{
+    font-size: 14px;
+  }
+}
